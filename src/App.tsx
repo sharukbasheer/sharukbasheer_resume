@@ -92,7 +92,7 @@
               <Route path="/" element={<Home />} />
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
-              <Route path="*" element={<h1>Page Not Found</h1>} />
+              <Route path="*" element={<Home />} />
             </Routes>
           </div>
         
