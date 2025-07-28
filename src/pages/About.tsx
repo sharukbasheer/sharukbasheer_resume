@@ -696,7 +696,7 @@ const About = () => {
                 gradient:
                   "from-blue-500 via-indigo-500 to-purple-600 dark:from-blue-400 dark:via-indigo-400 dark:to-purple-500",
                 bg: "bg-blue-100 dark:bg-blue-900/30",
-                text: "Completed BE Computer Science Engineering at Sri Shakthi Institute of Engineering and Technology (2018-2022). Strong foundation in programming, algorithms, and software development principles.",
+                text: "Completed BE Computer Science Engineering at Sri Shakthi Institute of Engineering and Technology (2019-2023). Strong foundation in programming, algorithms, and software development principles.",
                 borderGradient: "from-blue-400 to-purple-500",
               },
               {
