@@ -84,7 +84,7 @@ const Home = () => {
                   </button>
                 </Link>
                 <a
-                  href="../assets/Sharuk_Basheer_Resume.pdf"
+                  href="/sharukbasheer_resume/src/assets/Sharuk_Basheer_Resume.pdf"
                   download="SharukBasheer_Resume.pdf"
                   className="inline-block group"
                 >
