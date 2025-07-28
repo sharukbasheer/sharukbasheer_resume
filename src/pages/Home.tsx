@@ -84,13 +84,13 @@ const Home = () => {
                   </button>
                 </Link>
                 <a
-                  href="https://sharukbasheer.github.io/sharukbasheer_resume/Sharuk_Basheer_Resume.pdf"
+                 href="../assets/Sharuk_Basheer_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block group"
                 >
                   <button className="flex items-center gap-3 bg-gradient-to-r from-red-500 to-blue-900 hover:from-red-600 hover:to-blue-900 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold text-base lg:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl shadow-lg">
-                    View/Download CV
+                    Download CV
                   </button>
                 </a>
               </div>
@@ -156,74 +156,72 @@ const Home = () => {
                 </div>
                 <div className="space-y-2">
                   {/* GitHub */}
-                 
+
                   {/* LinkedIn */}
-                   <a
+                  <a
                     href="https://www.linkedin.com/in/sharuk-basheer-056130232/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block"
                   >
-
-                  <button className="group w-full flex items-center gap-3 bg-[#0A66C2] hover:bg-[#004182] text-white px-4 py-3 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-                    <svg
-                      className="w-4 h-4 group-hover:scale-110 transition-transform duration-300"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
+                    <button className="group w-full flex items-center gap-3 bg-[#0A66C2] hover:bg-[#004182] text-white px-4 py-3 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                      <svg
+                        className="w-4 h-4 group-hover:scale-110 transition-transform duration-300"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
                       >
-                      <path d="M19 0h-14c-2.8 0-5 2.2-5 5v14c0 2.8 2.2 5 5 5h14c2.8 0 5-2.2 5-5v-14c0-2.8-2.2-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.3c-1 0-1.8-.8-1.8-1.7 0-1 .8-1.7 1.8-1.7s1.8.8 1.8 1.7c0 .9-.8 1.7-1.8 1.7zm13.5 10.3h-3v-4.7c0-1.1-.4-1.9-1.5-1.9-.8 0-1.3.5-1.5 1.1-.1.2-.1.5-.1.7v4.8h-3v-9h3v1.3c.4-.6 1.2-1.5 2.9-1.5 2.1 0 3.6 1.4 3.6 4.3v5.9z" />
-                    </svg>
-                    <span className="flex-1 text-left">LinkedIn</span>
-                    <svg
-                      className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+                        <path d="M19 0h-14c-2.8 0-5 2.2-5 5v14c0 2.8 2.2 5 5 5h14c2.8 0 5-2.2 5-5v-14c0-2.8-2.2-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.3c-1 0-1.8-.8-1.8-1.7 0-1 .8-1.7 1.8-1.7s1.8.8 1.8 1.7c0 .9-.8 1.7-1.8 1.7zm13.5 10.3h-3v-4.7c0-1.1-.4-1.9-1.5-1.9-.8 0-1.3.5-1.5 1.1-.1.2-.1.5-.1.7v4.8h-3v-9h3v1.3c.4-.6 1.2-1.5 2.9-1.5 2.1 0 3.6 1.4 3.6 4.3v5.9z" />
+                      </svg>
+                      <span className="flex-1 text-left">LinkedIn</span>
+                      <svg
+                        className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
                       >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M13 7l5 5m0 0l-5 5m5-5H6"
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M13 7l5 5m0 0l-5 5m5-5H6"
                         />
-                    </svg>
-                  </button>
+                      </svg>
+                    </button>
                   </a>
 
                   {/* Gmail */}
-                   <a
+                  <a
                     href="https://mail.google.com/mail/?view=cm&fs=1&to=sharukbasheer01@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block"
                   >
-
-                  <button className="group w-full flex items-center gap-3 bg-[#D14836] hover:bg-[#b43728] text-white px-4 py-3 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-                    <svg
-                      className="w-4 h-4 group-hover:scale-110 transition-transform duration-300"
-                      fill="currentColor"
-                      viewBox="0 0 512 512"
+                    <button className="group w-full flex items-center gap-3 bg-[#D14836] hover:bg-[#b43728] text-white px-4 py-3 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                      <svg
+                        className="w-4 h-4 group-hover:scale-110 transition-transform duration-300"
+                        fill="currentColor"
+                        viewBox="0 0 512 512"
                       >
-                      <path d="M502.3 190.8L327.4 338.1l-71.4 57.4-71.4-57.4L9.7 190.8A41.4 41.4 0 0 1 0 159.6V456c0 30.9 25.1 56 56 56h400c30.9 0 56-25.1 56-56V159.6c0-11.1-4.8-21.6-13.7-29.2zM256 294.1l237.5-191H18.5L256 294.1z" />
-                    </svg>
-                    <span className="flex-1 text-left">Gmail</span>
-                    <svg
-                      className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+                        <path d="M502.3 190.8L327.4 338.1l-71.4 57.4-71.4-57.4L9.7 190.8A41.4 41.4 0 0 1 0 159.6V456c0 30.9 25.1 56 56 56h400c30.9 0 56-25.1 56-56V159.6c0-11.1-4.8-21.6-13.7-29.2zM256 294.1l237.5-191H18.5L256 294.1z" />
+                      </svg>
+                      <span className="flex-1 text-left">Gmail</span>
+                      <svg
+                        className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
                       >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M13 7l5 5m0 0l-5 5m5-5H6"
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M13 7l5 5m0 0l-5 5m5-5H6"
                         />
-                    </svg>
-                  </button>
+                      </svg>
+                    </button>
                   </a>
 
-                   <a
+                  <a
                     href="https://github.com/sharukbasheer"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -257,7 +255,6 @@ const Home = () => {
                       </svg>
                     </button>
                   </a>
-
                 </div>
               </div>
             </div>
