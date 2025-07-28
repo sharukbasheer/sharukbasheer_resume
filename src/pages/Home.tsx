@@ -84,8 +84,9 @@ const Home = () => {
                   </button>
                 </Link>
                 <a
-                  href={`${import.meta.env.BASE_URL}Sharuk_Basheer_Resume.pdf`}
-                  download="SharukBasheer_Resume.pdf"
+                  href="/sharukbasheer_resume/Sharuk_Basheer_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block group"
                 >
                   <button className="flex items-center gap-3 bg-gradient-to-r from-red-500 to-blue-900 hover:from-red-600 hover:to-blue-900 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold text-base lg:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl shadow-lg">
