@@ -52,16 +52,14 @@ const Home = () => {
               </div>
               <div className="space-y-1">
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                  I am a passionate and results-driven software developer with
-                  over 3 years of experience specializing in .NET technologies.
-                  My expertise spans across building robust Web APIs, dynamic
-                  desktop applications, and modern web interfaces.
+                  I am a passionate and results-driven software developer with over 3 years of experience specializing
+                  in .NET technologies. My expertise spans across building robust Web APIs, dynamic desktop
+                  applications, and modern web interfaces.
                 </p>
                 <p className="text-sm sm:text-base lg:text-lg text-gray-500 dark:text-gray-400 leading-relaxed">
-                  I have hands-on experience with frameworks like MAUI,
-                  Avalonia, WPF, and WinForms, enabling me to craft
-                  cross-platform solutions. I'm also proficient in React,
-                  JavaScript, and TypeScript for full-stack development.
+                  I have hands-on experience with frameworks like MAUI, Avalonia, WPF, and WinForms, enabling me to
+                  craft cross-platform solutions. I'm also proficient in React, JavaScript, and TypeScript for
+                  full-stack development.
                 </p>
               </div>
               <div className="pt-3 flex gap-4">
@@ -74,21 +72,11 @@ const Home = () => {
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M13 7l5 5m0 0l-5 5m5-5H6"
-                      />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </button>
                 </Link>
-                <a
-                 href="../assets/Sharuk_Basheer_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block group"
-                >
+                <a href="Sharuk_Basheer_Resume.pdf" download className="inline-block group">
                   <button className="flex items-center gap-3 bg-gradient-to-r from-red-500 to-blue-900 hover:from-red-600 hover:to-blue-900 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold text-base lg:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl shadow-lg">
                     Download CV
                   </button>
